@@ -26,5 +26,11 @@ function randomVal (min, max){
 }
 
 window.onload=function(){
-    display([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],5)
+    document.querySelector("#button").onclick=function(){
+		let tab=[]
+		for(let i=0;i<20;i++){
+			tab.push(randomVal(0,20))
+		}
+		display(tab,5)
+	}
 }
