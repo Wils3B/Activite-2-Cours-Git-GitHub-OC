@@ -33,4 +33,8 @@ window.onload=function(){
 		}
 		display(tab,5)
 	}
+	
+	setInterval(()=>{
+		document.querySelector("#date").innerHTML=(new Date()).toLocaleString()
+	},1000)
 }
