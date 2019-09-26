@@ -2,3 +2,7 @@
 Activite 2 du cours en ligne "gerez votre code avec git et github" sur OC.
 
 Les premiers ajout ont ete effectues dans le repositoire local.
+
+Le projet Contient : 
+
+index.html, main.js, style.css, README.md, LICENCE 
